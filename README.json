@@ -220,7 +220,7 @@
           "repo_info": {
             "archived": false,
             "language": "Rust",
-            "last_commit": "2026-08-11T20:13:04Z",
+            "last_commit": "2026-08-17T22:00:39Z",
             "owner": "XRPLF",
             "repo": "xrpl-rust",
             "stars": 41
@@ -377,7 +377,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-17T10:15:00.260Z",
+    "last_updated": "2026-08-18T10:02:45.487Z",
     "original_repository": "wojake/awesome-xrpl",
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",
     "enhanced_repository": "enhansome/enhansome-xrpl",
