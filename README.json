@@ -1,383 +1,570 @@
 {
   "items": [
     {
-      "description": "XRPL Dev Tools pertaining to the DEX.",
+      "description": null,
       "items": [
         {
           "node_type": "item",
-          "title": "API for Token Price Metrics from OnTheDEX.live",
-          "description": "Get accurate and up-to-date token trading data for all tokens traded on the XRP Ledger. Includes live (via websocket) and static (via REST) API for price, volume and other metrics, plus OHLC data for charting use.",
+          "title": "XRPL.org Explorer",
+          "description": "💫 MTD XRPL.org's explorer src: ripple/explorer",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": null,
-            "last_commit": "2022-08-15T14:33:45Z",
-            "owner": "OnTheDEX",
-            "repo": "xrpledger-token-data-api",
-            "stars": 18
+            "id": 380284064,
+            "language": "TypeScript",
+            "last_commit": "2026-08-17T17:40:30Z",
+            "owner": "ripple",
+            "repo": "explorer",
+            "stars": 238
           }
         },
         {
           "node_type": "item",
-          "title": "dexter",
-          "description": "A tool for creating orders on the XRPL DEX. Created by @hammertoe during the Ripple Innovate hackathon. Uses",
+          "title": "Ledger Observer",
+          "description": "A visual exploration of an account and \\ connections. Originally created by @LedgerExplorer. src: nixer89/ledger-observer",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Python",
-            "last_commit": "2021-07-06T10:32:58Z",
-            "owner": "hammertoe",
-            "repo": "dexter",
-            "stars": 14
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "XRPL-Persist-Price-Oracle",
-          "description": "Open source code that persists price information on-ledger, providing a price feed.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-12-04T20:27:36Z",
-            "owner": "XRPL-Labs",
-            "repo": "XRPL-Persist-Price-Oracle",
+            "id": 248446840,
+            "language": "Clojure",
+            "last_commit": "2023-03-06T05:35:26Z",
+            "owner": "nixer89",
+            "repo": "ledger-observer",
             "stars": 5
           }
-        },
-        {
-          "node_type": "item",
-          "title": "Sologenic XRPL Trading Data",
-          "description": "Sologenic.org has a public API for accessing DEX trading data. This is its' documentation.",
-          "children": []
         }
       ],
-      "title": "DEX Dev Tools"
+      "title": "XRPL Explorers"
     },
     {
-      "description": "This is the core of the XRPL, it's a peer to peer network daemon.",
-      "items": [],
-      "title": "The Daemon –"
+      "description": "Related to the built-in DEX.\n💡 The DEX unlocks auto-bridging, and path finding.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "API for Token Price Metrics from OnTheDEX.live",
+              "description": "Get accurate and up-to-date token trading data for all tokens traded on the XRP Ledger. Includes live (via websocket) and static (via REST) API for price, volume and other metrics, plus OHLC data for charting use.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 490628738,
+                "language": null,
+                "last_commit": "2022-08-15T14:33:45Z",
+                "owner": "OnTheDEX",
+                "repo": "xrpledger-token-data-api",
+                "stars": 18
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "dexter",
+              "description": "A tool for creating orders on the XRPL DEX. Created by @hammertoe during the Ripple Innovate hackathon. Uses",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 377442946,
+                "language": "Python",
+                "last_commit": "2021-07-06T10:32:58Z",
+                "owner": "hammertoe",
+                "repo": "dexter",
+                "stars": 14
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "XRPL-Persist-Price-Oracle",
+              "description": "Open source code that persists price information on-ledger, providing a price feed.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 333813747,
+                "language": "JavaScript",
+                "last_commit": "2023-12-04T20:27:36Z",
+                "owner": "XRPL-Labs",
+                "repo": "XRPL-Persist-Price-Oracle",
+                "stars": 5
+              }
+            }
+          ],
+          "description": "XRPL Dev Tools pertaining to the DEX.\nSee also XRPL Developer Tools.",
+          "node_type": "group",
+          "title": "DEX Dev Tools"
+        }
+      ],
+      "title": "XRPL DEX"
     },
     {
-      "description": "",
-      "items": [],
-      "title": "…maybe we rename it 😎"
+      "description": "I want to run a node and be a participant in the XRPL.\nWant to skip ahead? Use the developer tools and a public node.",
+      "items": [
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "rippled Docker container (node)",
+                  "description": "Docker hub",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 120847522,
+                    "language": "Shell",
+                    "last_commit": "2026-08-07T05:38:52Z",
+                    "owner": "WietseWind",
+                    "repo": "docker-xrpld",
+                    "stars": 76
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "rippled Docker container (validator)",
+                  "description": "Docker hub",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 120738382,
+                    "language": "Shell",
+                    "last_commit": "2022-01-04T21:39:11Z",
+                    "owner": "WietseWind",
+                    "repo": "docker-rippled-validator",
+                    "stars": 24
+                  }
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "in a 🐳 Container"
+            }
+          ],
+          "description": "See XRPL Developer Tools for connecting to your node or any other node, such as a public one like XRPLcluster.",
+          "node_type": "group",
+          "title": "Installing, Configuring and Running"
+        }
+      ],
+      "title": "I want to run a Node 🏗️"
     },
     {
-      "description": "",
+      "description": "See also XRPL.org Dev Tools, the list below are shortcuts for convenience.",
       "items": [
         {
           "node_type": "item",
-          "title": "rippled Docker container (node)",
-          "description": "Docker hub",
+          "title": "xrp.fans",
+          "description": "Source- Dashboard Debugging & Development for the XRPL",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Shell",
-            "last_commit": "2026-08-07T05:38:52Z",
+            "id": 135230794,
+            "language": "Vue",
+            "last_commit": "2022-12-07T16:14:46Z",
             "owner": "WietseWind",
-            "repo": "docker-xrpld",
-            "stars": 76
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "rippled Docker container (validator)",
-          "description": "Docker hub",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Shell",
-            "last_commit": "2022-01-04T21:39:11Z",
-            "owner": "WietseWind",
-            "repo": "docker-rippled-validator",
-            "stars": 24
-          }
-        }
-      ],
-      "title": "in a 🐳 Container"
-    },
-    {
-      "description": "Note: Your mileage may vary!\nIf you find any of these to be production-ready, please consider moving it to top section in lieu of some integration suite, like Acid Tests does for browsers and targeting web standards.",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "xrbp",
-          "description": "Ruby :: rubydoc",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Ruby",
-            "last_commit": "2020-04-23T20:47:20Z",
-            "owner": "DevNullProd",
-            "repo": "XRBP",
-            "stars": 11
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "node-red-contrib-xrpl",
-          "description": "Node-RED Modules for XRPL",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2023-03-06T08:20:28Z",
-            "owner": "xrpinnovations",
-            "repo": "node-red-contrib-xrpl",
+            "repo": "rippled-ws-client-dashboard",
             "stars": 7
           }
+        },
+        {
+          "node_type": "item",
+          "title": "XRPL Attendify",
+          "description": "Mint, distribute NFTs and verify attendance at a wide range of events and activities. Includes example implementation for ExpressJS API",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 587123228,
+            "language": "JavaScript",
+            "last_commit": "2023-06-23T01:21:00Z",
+            "owner": "JustAnotherDevv",
+            "repo": "AttendifyXRPL",
+            "stars": 1
+          }
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "xrbp",
+                      "description": "Ruby :: rubydoc",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 177889659,
+                        "language": "Ruby",
+                        "last_commit": "2020-04-23T20:47:20Z",
+                        "owner": "DevNullProd",
+                        "repo": "XRBP",
+                        "stars": 11
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "node-red-contrib-xrpl",
+                      "description": "Node-RED Modules for XRPL",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 189098960,
+                        "language": "HTML",
+                        "last_commit": "2023-03-06T08:20:28Z",
+                        "owner": "xrpinnovations",
+                        "repo": "node-red-contrib-xrpl",
+                        "stars": 7
+                      }
+                    }
+                  ],
+                  "description": "Note: Your mileage may vary!\nIf you find any of these to be production-ready, please consider moving it to top section in lieu of some integration suite, like Acid Tests does for browsers and targeting web standards.",
+                  "node_type": "group",
+                  "title": "Libs/YMMV"
+                }
+              ],
+              "description": "Libraries that are current and production-ready.",
+              "node_type": "group",
+              "title": "Libs / Production-Ready"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "node_type": "item",
+                      "title": "WietseWind/xrp-vanity-generator",
+                      "description": "Using ripple-keypairs, part of xrpl.js",
+                      "children": [],
+                      "repo_info": {
+                        "archived": true,
+                        "id": 119687888,
+                        "language": "JavaScript",
+                        "last_commit": "2021-03-08T20:17:53Z",
+                        "owner": "WietseWind",
+                        "repo": "xrp-vanity-generator",
+                        "stars": 33
+                      }
+                    },
+                    {
+                      "node_type": "item",
+                      "title": "nhartner/xrp-vanity-generator",
+                      "description": "Using xrpl4j",
+                      "children": [],
+                      "repo_info": {
+                        "archived": false,
+                        "id": 360588190,
+                        "language": "Java",
+                        "last_commit": "2023-03-04T20:19:43Z",
+                        "owner": "nhartner",
+                        "repo": "xrp-vanity-address",
+                        "stars": 11
+                      }
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "XRPL Vanity Generators"
+                }
+              ],
+              "description": null,
+              "node_type": "group",
+              "title": "Libs/Benchmarks"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "rubblelabs/ripple",
+                  "description": "Go",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 20294364,
+                    "language": "Go",
+                    "last_commit": "2024-03-24T12:18:53Z",
+                    "owner": "rubblelabs",
+                    "repo": "ripple",
+                    "stars": 97
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ripple-rest",
+                  "description": "A RESTful API for submitting payments and monitoring accounts on the Ripple Network",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 16561603,
+                    "language": "JavaScript",
+                    "last_commit": "2023-04-07T10:17:01Z",
+                    "owner": "ripple",
+                    "repo": "ripple-rest",
+                    "stars": 85
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "xrpl-rust",
+                  "description": "Rust",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 412235347,
+                    "language": "Rust",
+                    "last_commit": "2026-08-18T23:17:30Z",
+                    "owner": "XRPLF",
+                    "repo": "xrpl-rust",
+                    "stars": 41
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ripple-libpp",
+                  "description": "C++ Standalone RCL-compatible transaction signing and serialization library",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 66310754,
+                    "language": "C++",
+                    "last_commit": "2021-01-14T14:13:57Z",
+                    "owner": "ripple",
+                    "repo": "ripple-libpp",
+                    "stars": 19
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ripple-lib-ruby",
+                  "description": "Ruby",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 14187691,
+                    "language": "Ruby",
+                    "last_commit": "2014-01-07T00:39:05Z",
+                    "owner": "kevinejohn",
+                    "repo": "ripple-lib-rpc-ruby",
+                    "stars": 6
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "RippleKit",
+                  "description": "Swift",
+                  "children": [],
+                  "repo_info": {
+                    "archived": true,
+                    "id": 97887651,
+                    "language": "Swift",
+                    "last_commit": "2017-08-04T18:24:46Z",
+                    "owner": "xasos",
+                    "repo": "RippleKit",
+                    "stars": 5
+                  }
+                },
+                {
+                  "node_type": "item",
+                  "title": "ripple-haskell",
+                  "description": "Haskell",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 9570851,
+                    "language": "Haskell",
+                    "last_commit": "2015-07-04T21:30:41Z",
+                    "owner": "singpolyma",
+                    "repo": "ripple-haskell",
+                    "stars": 2
+                  }
+                }
+              ],
+              "description": "Note: Unverified and not updated (unofficially deprecated)",
+              "node_type": "group",
+              "title": "Libs/Unverified"
+            }
+          ],
+          "description": "Libraries to connect & interact with the daemon and the network.",
+          "node_type": "group",
+          "title": "Libs"
         }
       ],
-      "title": "Libs/YMMV"
+      "title": "XRPL Developer Tools"
     },
     {
-      "description": "",
-      "items": [],
-      "title": "Libs/Benchmarks"
-    },
-    {
-      "description": "",
+      "description": "Code repositories that didn't fit anywhere else",
       "items": [
         {
-          "node_type": "item",
-          "title": "WietseWind/xrp-vanity-generator",
-          "description": "Using ripple-keypairs, part of xrpl.js",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2021-03-08T20:17:53Z",
-            "owner": "WietseWind",
-            "repo": "xrp-vanity-generator",
-            "stars": 33
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "nhartner/xrp-vanity-generator",
-          "description": "Using xrpl4j",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Java",
-            "last_commit": "2023-03-04T20:19:43Z",
-            "owner": "nhartner",
-            "repo": "xrp-vanity-address",
-            "stars": 11
-          }
-        }
-      ],
-      "title": "XRPL Vanity Generators"
-    },
-    {
-      "description": "Packaged and installable, can be used to interface with an API or Application.",
-      "items": [],
-      "title": "Libs/SDK"
-    },
-    {
-      "description": "",
-      "items": [],
-      "title": "Connecting a Wallet"
-    },
-    {
-      "description": "Note: Unverified and not updated (unofficially deprecated)",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "rubblelabs/ripple",
-          "description": "Go",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Go",
-            "last_commit": "2024-03-24T12:18:53Z",
-            "owner": "rubblelabs",
-            "repo": "ripple",
-            "stars": 97
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-rest",
-          "description": "A RESTful API for submitting payments and monitoring accounts on the Ripple Network",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2023-04-07T10:17:01Z",
-            "owner": "ripple",
-            "repo": "ripple-rest",
-            "stars": 85
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "xrpl-rust",
-          "description": "Rust",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T22:00:39Z",
-            "owner": "XRPLF",
-            "repo": "xrpl-rust",
-            "stars": 41
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-libpp",
-          "description": "C++ Standalone RCL-compatible transaction signing and serialization library",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "C++",
-            "last_commit": "2021-01-14T14:13:57Z",
-            "owner": "ripple",
-            "repo": "ripple-libpp",
-            "stars": 19
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-lib-ruby",
-          "description": "Ruby",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Ruby",
-            "last_commit": "2014-01-07T00:39:05Z",
-            "owner": "kevinejohn",
-            "repo": "ripple-lib-rpc-ruby",
-            "stars": 6
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "RippleKit",
-          "description": "Swift",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Swift",
-            "last_commit": "2017-08-04T18:24:46Z",
-            "owner": "xasos",
-            "repo": "RippleKit",
-            "stars": 5
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-haskell",
-          "description": "Haskell",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Haskell",
-            "last_commit": "2015-07-04T21:30:41Z",
-            "owner": "singpolyma",
-            "repo": "ripple-haskell",
-            "stars": 2
-          }
-        }
-      ],
-      "title": "Libs/Unverified"
-    },
-    {
-      "description": "",
-      "items": [
-        {
-          "node_type": "item",
-          "title": "rippled-historical-database",
-          "description": "SQL database as a canonical source of historical data in Ripple",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-11-23T18:07:29Z",
-            "owner": "ripple",
-            "repo": "rippled-historical-database",
-            "stars": 103
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-data-api",
-          "description": "Deprecated",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "JavaScript",
-            "last_commit": "2015-11-24T19:20:16Z",
-            "owner": "ripple",
-            "repo": "ripple-data-api",
-            "stars": 49
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "ripple-blobvault",
-          "description": "Server for storing persistent data for Ripple clients",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2023-11-23T18:26:41Z",
-            "owner": "ripple",
-            "repo": "ripple-blobvault",
-            "stars": 37
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Ripple Checkout",
-          "description": "An embeddable widget for paying with Ripple.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2014-02-01T01:27:03Z",
-            "owner": "emschwartz",
-            "repo": "ripple-donate-widget",
-            "stars": 10
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "federation-python",
-          "description": "Python module for a simple federation endpoint.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2014-06-24T21:28:59Z",
-            "owner": "miracle2k",
-            "repo": "ripple-federation-python",
-            "stars": 5
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Ripple Rails",
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rippled-historical-database",
+              "description": "SQL database as a canonical source of historical data in Ripple",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 22237229,
+                "language": "JavaScript",
+                "last_commit": "2023-11-23T18:07:29Z",
+                "owner": "ripple",
+                "repo": "rippled-historical-database",
+                "stars": 103
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ripple-data-api",
+              "description": "Deprecated",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 17228368,
+                "language": "JavaScript",
+                "last_commit": "2015-11-24T19:20:16Z",
+                "owner": "ripple",
+                "repo": "ripple-data-api",
+                "stars": 49
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ripple-blobvault",
+              "description": "Server for storing persistent data for Ripple clients",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 6258339,
+                "language": "JavaScript",
+                "last_commit": "2023-11-23T18:26:41Z",
+                "owner": "ripple",
+                "repo": "ripple-blobvault",
+                "stars": 37
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ripple Checkout",
+              "description": "An embeddable widget for paying with Ripple.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 16403192,
+                "language": null,
+                "last_commit": "2014-02-01T01:27:03Z",
+                "owner": "emschwartz",
+                "repo": "ripple-donate-widget",
+                "stars": 10
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "federation-python",
+              "description": "Python module for a simple federation endpoint.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 15032011,
+                "language": "Python",
+                "last_commit": "2014-06-24T21:28:59Z",
+                "owner": "miracle2k",
+                "repo": "ripple-federation-python",
+                "stars": 5
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Ripple Rails",
+              "description": null,
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9229949,
+                "language": "Ruby",
+                "last_commit": "2013-04-26T12:41:01Z",
+                "owner": "singpolyma",
+                "repo": "ripple-rails",
+                "stars": 5
+              }
+            }
+          ],
           "description": null,
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Ruby",
-            "last_commit": "2013-04-26T12:41:01Z",
-            "owner": "singpolyma",
-            "repo": "ripple-rails",
-            "stars": 5
-          }
+          "node_type": "group",
+          "title": "Code/Other"
         }
       ],
       "title": "Code/Other"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Ledger - Ledger is a hardware wallet manufacturer. Their wallets support XRPL, and are supported by most tools, through their ledgerjs",
+          "description": "SDK. LedgerHQ/app-xrp is the source for the Ledger XRP app.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 33945868,
+            "language": "TypeScript",
+            "last_commit": "2022-06-22T06:45:20Z",
+            "owner": "LedgerHQ",
+            "repo": "ledgerjs",
+            "stars": 574
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "🌟XUMM 📱 Pronounced \"sum\" - XUMM is a self-custodial wallet for Android & iOS, built by XRPL-Labs. XUMM can hold many accounts, and is easy to setup. It strives to deliver the best XRPL experience. It has several features not found in any other wallet, including Tangram integration and xApps which are vetted by the XRPL-Labs team. XRPL-Labs/XUMM-App",
+          "description": "is the source of the react native application. The XUMM SDK provides functionality for integrating with XUMM user's XUMM Wallet. For power users, XUMM will offer a Pro subscription service that will enable additional functionality, like push notifications on all your wallet's activity.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 248221414,
+            "language": "TypeScript",
+            "last_commit": "2025-08-30T21:23:48Z",
+            "owner": "XRPL-Labs",
+            "repo": "Xaman-App",
+            "stars": 118
+          }
+        }
+      ],
+      "title": "Wallets (Non-Custodial)"
+    },
+    {
+      "description": "PayString is ledger-agnostic and is an easy protocol to adopt for dynamic and authorized wallet responses.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "paystring-cli",
+          "description": "Query a PayString from the commandline.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 288501076,
+            "language": "TypeScript",
+            "last_commit": "2022-12-23T05:04:55Z",
+            "owner": "PayString",
+            "repo": "paystring-cli",
+            "stars": 21
+          }
+        },
+        {
+          "node_type": "item",
+          "title": "payid-lambda",
+          "description": "An AWS Lambda for serving up a PayString.",
+          "children": [],
+          "repo_info": {
+            "archived": true,
+            "id": 282028199,
+            "language": "Shell",
+            "last_commit": "2020-09-30T21:07:06Z",
+            "owner": "xpring-eng",
+            "repo": "payid-lambda",
+            "stars": 4
+          }
+        }
+      ],
+      "title": "PayString"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T10:02:45.487Z",
+    "last_updated": "2026-08-19T10:03:06.699Z",
     "original_repository": "wojake/awesome-xrpl",
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",
     "enhanced_repository": "enhansome/enhansome-xrpl",
