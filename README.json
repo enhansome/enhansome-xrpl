@@ -12,7 +12,7 @@
             "archived": false,
             "id": 380284064,
             "language": "TypeScript",
-            "last_commit": "2026-08-19T15:01:35Z",
+            "last_commit": "2026-08-20T14:44:36Z",
             "owner": "ripple",
             "repo": "explorer",
             "stars": 238
@@ -520,7 +520,7 @@
             "last_commit": "2025-08-30T21:23:48Z",
             "owner": "XRPL-Labs",
             "repo": "Xaman-App",
-            "stars": 118
+            "stars": 117
           }
         }
       ],
@@ -564,7 +564,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-20T10:04:51.191Z",
+    "last_updated": "2026-08-21T10:05:10.642Z",
     "original_repository": "wojake/awesome-xrpl",
     "original_repository_id": 378533199,
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",
