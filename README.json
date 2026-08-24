@@ -100,6 +100,21 @@
         {
           "children": [
             {
+              "node_type": "item",
+              "title": "Node Configurator",
+              "description": "🪄✨ This wizard will walk you through configuring a node! If you want to go full custom. The shipped, example configuration file is pretty verbose about each option, this wizard will package you up your validators, your config and even instructions in a zip you generate locally.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 2724167,
+                "language": "C++",
+                "last_commit": "2026-08-24T14:34:11Z",
+                "owner": "XRPLF",
+                "repo": "rippled",
+                "stars": 5189
+              }
+            },
+            {
               "children": [
                 {
                   "node_type": "item",
@@ -135,6 +150,28 @@
               "description": null,
               "node_type": "group",
               "title": "in a 🐳 Container"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "Running an XRPL Validator on a RPi4",
+                  "description": "The author has an installation script available here. This methodology can apply to compiling on AWS Graviton EC2 Instances as well.",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 343454584,
+                    "language": "Shell",
+                    "last_commit": "2021-03-03T18:50:55Z",
+                    "owner": "dvilelaf",
+                    "repo": "xrpldRaspberryPi",
+                    "stars": 4
+                  }
+                }
+              ],
+              "description": "The RPi4 is ARM64 capable and can compile , if you'd like to boot up an ARM 64-bit OS. The RPi4 @ 8GB meets the minimum requirements, it could meet the recommended requirements with a bump to its' RAM to 32GB since it also has 1Gbps networking.",
+              "node_type": "group",
+              "title": "on the Raspberry Pi 4"
             }
           ],
           "description": "See XRPL Developer Tools for connecting to your node or any other node, such as a public one like XRPLcluster.",
@@ -214,7 +251,7 @@
                       }
                     }
                   ],
-                  "description": "Note: Your mileage may vary!\nIf you find any of these to be production-ready, please consider moving it to top section in lieu of some integration suite, like Acid Tests does for browsers and targeting web standards.",
+                  "description": "Note: Your mileage may vary!",
                   "node_type": "group",
                   "title": "Libs/YMMV"
                 }
@@ -266,6 +303,64 @@
               "description": null,
               "node_type": "group",
               "title": "Libs/Benchmarks"
+            },
+            {
+              "children": [
+                {
+                  "children": [
+                    {
+                      "children": [
+                        {
+                          "node_type": "item",
+                          "title": "ledgerjs",
+                          "description": "The SDK for interacting with Ledger wallets.",
+                          "children": [],
+                          "repo_info": {
+                            "archived": true,
+                            "id": 33945868,
+                            "language": "TypeScript",
+                            "last_commit": "2022-06-22T06:45:20Z",
+                            "owner": "LedgerHQ",
+                            "repo": "ledgerjs",
+                            "stars": 574
+                          }
+                        }
+                      ],
+                      "description": null,
+                      "node_type": "group",
+                      "title": "Ledger Wallets"
+                    },
+                    {
+                      "children": [
+                        {
+                          "node_type": "item",
+                          "title": "xumm4j",
+                          "description": "The Java version of the XUMM SDK for XUMM by francisrosario",
+                          "children": [],
+                          "repo_info": {
+                            "archived": false,
+                            "id": 387440555,
+                            "language": "Java",
+                            "last_commit": "2025-08-17T09:09:49Z",
+                            "owner": "francisrosario",
+                            "repo": "xumm4j",
+                            "stars": 7
+                          }
+                        }
+                      ],
+                      "description": null,
+                      "node_type": "group",
+                      "title": "XUMM Wallets"
+                    }
+                  ],
+                  "description": null,
+                  "node_type": "group",
+                  "title": "Connecting a Wallet"
+                }
+              ],
+              "description": "Packaged and installable, can be used to interface with an API or Application.",
+              "node_type": "group",
+              "title": "Libs/SDK"
             },
             {
               "children": [
@@ -378,6 +473,28 @@
               "description": "Note: Unverified and not updated (unofficially deprecated)",
               "node_type": "group",
               "title": "Libs/Unverified"
+            },
+            {
+              "children": [
+                {
+                  "node_type": "item",
+                  "title": "federation-php",
+                  "description": "No Maintainer - Simple PHP federation endpoint with a static JSON dataset. No alternative known",
+                  "children": [],
+                  "repo_info": {
+                    "archived": false,
+                    "id": 11554720,
+                    "language": "PHP",
+                    "last_commit": "2013-11-08T22:44:04Z",
+                    "owner": "ripple-unmaintained",
+                    "repo": "federation-php",
+                    "stars": 10
+                  }
+                }
+              ],
+              "description": "Note: Unverified or deprecated libaries. If they're deprecated, an alternative is included",
+              "node_type": "group",
+              "title": "Libs/Deprecated"
             }
           ],
           "description": "Libraries to connect & interact with the daemon and the network.",
@@ -388,8 +505,129 @@
       "title": "XRPL Developer Tools"
     },
     {
+      "description": "Code repositories that are also applications in their own right.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "rubblelabs/tx",
+              "description": "Tool for executing transactions on the Ripple network",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 21583515,
+                "language": "Go",
+                "last_commit": "2015-05-03T17:05:07Z",
+                "owner": "rubblelabs",
+                "repo": "tx",
+                "stars": 18
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Shell"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Ripplectron",
+              "description": "Desktop client for Electron",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 98654734,
+                "language": "JavaScript",
+                "last_commit": "2017-11-28T09:34:58Z",
+                "owner": "devjin0617",
+                "repo": "ripplectron",
+                "stars": 52
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Desktop"
+        }
+      ],
+      "title": "Code/App"
+    },
+    {
+      "description": "See also:",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "XRPL-monitor-ESP32",
+          "description": "Using an ESP32 (an arduino with wifi), and circuit python to communicate with the XRPL.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 172041914,
+            "language": "Python",
+            "last_commit": "2019-02-25T14:52:08Z",
+            "owner": "dvilelaf",
+            "repo": "XRPL-monitor-ESP32",
+            "stars": 5
+          }
+        }
+      ],
+      "title": "Code/IoT"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CoinClub Framework",
+              "description": "A Python Library for multiple Blockchains. Token support for XRP, XLM, FileCoin, Algorand, Cardano, and more.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 356447896,
+                "language": "Python",
+                "last_commit": "2022-03-17T03:30:15Z",
+                "owner": "CoinClubQuincy",
+                "repo": "CoinClub_Framework",
+                "stars": 20
+              }
+            }
+          ],
+          "description": "Frameworks for interacting with multiple chains, including XRPL.",
+          "node_type": "group",
+          "title": "Code/Framework/Multi-Chain"
+        }
+      ],
+      "title": "Code/Framework"
+    },
+    {
       "description": "Code repositories that didn't fit anywhere else",
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "CodeShark/RippleGen",
+              "description": "C++/Boost over 8 years old, need to test it!",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 9333789,
+                "language": "C++",
+                "last_commit": "2013-04-11T03:19:37Z",
+                "owner": "CodeShark",
+                "repo": "RippleGen",
+                "stars": 26
+              }
+            }
+          ],
+          "description": "See also XRPL Vanity Generators",
+          "node_type": "group",
+          "title": "Code/Other/Vanity Generators"
+        },
         {
           "children": [
             {
@@ -491,6 +729,56 @@
       "title": "Code/Other"
     },
     {
+      "description": "Applications that integrate or involve the XRPL.",
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "XRPhone",
+              "description": "Pay merchant invoices over the phone using XRP. Source",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 410724867,
+                "language": "JavaScript",
+                "last_commit": "2022-08-14T20:12:11Z",
+                "owner": "jremi",
+                "repo": "xrphone",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Software as a Service (SaaS)"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "XRPL Ideas (GitHub Discussions)",
+              "description": "Forum where you can share XRPL ideas, and read ideas by others.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 358477563,
+                "language": null,
+                "last_commit": "2021-10-03T03:40:27Z",
+                "owner": "intelliot",
+                "repo": "xrpl-ideas",
+                "stars": 8
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Ideas"
+        }
+      ],
+      "title": "Apps"
+    },
+    {
       "description": null,
       "items": [
         {
@@ -561,10 +849,52 @@
         }
       ],
       "title": "PayString"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Awesome Interledger",
+          "description": null,
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 73866328,
+            "language": null,
+            "last_commit": "2018-04-04T17:00:42Z",
+            "owner": "vhpoet",
+            "repo": "awesome-ilp",
+            "stars": 7
+          }
+        }
+      ],
+      "title": "Interledger"
+    },
+    {
+      "description": "Stuff that didn't really fit anywhere else.",
+      "items": [
+        {
+          "node_type": "item",
+          "title": "Awesome Ripple",
+          "description": "A related awesome list, that uses a legacy name. Many items from",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 14434679,
+            "language": null,
+            "last_commit": "2021-07-02T15:40:31Z",
+            "owner": "vhpoet",
+            "repo": "awesome-ripple",
+            "stars": 200
+          }
+        }
+      ],
+      "title": "Misc"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T10:21:23.919Z",
+    "last_updated": "2026-08-24T14:42:04.826Z",
     "original_repository": "wojake/awesome-xrpl",
     "original_repository_id": 378533199,
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",

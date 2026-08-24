@@ -178,19 +178,19 @@ Want to skip ahead? Use the [developer tools](#xrpl-developer-tools) and a [publ
 
 > a daemon (/ˈdiːmən/ or /ˈdeɪmən/) is a computer program that runs as a background process, rather than being under the direct control of an interactive user
 
-[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,189 | 🐛 968 | 🌐 C++ | 📅 2026-08-24 *This is the core of the XRPL*, it's a peer to peer network daemon.
+[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,189 | 🐛 967 | 🌐 C++ | 📅 2026-08-24 *This is the core of the XRPL*, it's a peer to peer network daemon.
 
 ###### …maybe we rename it `xrpld` 😎
 
 ## Installing, Configuring and Running `rippled`
 
+* [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
+  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,189 | 🐛 967 | 🌐 C++ | 📅 2026-08-24
+  is pretty verbose about each option, this wizard will
+  package you up your validators, your config and even instructions in a zip you generate locally.
 * [XRPL.org Installing `rippled`](https://xrpl.org/install-rippled.html) Install and get the core running, its easy!
   (Like just install a package or run a container easy.)
 * [XRPL.org Configuing `rippled`](https://xrpl.org/configure-rippled.html) Next steps after you get it installed and running.
-* [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
-  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,189 | 🐛 968 | 🌐 C++ | 📅 2026-08-24
-  is pretty verbose about each option, this wizard will
-  package you up your validators, your config and even instructions in a zip you generate locally.
 * [IANA Registration for `xrpl` service port](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml?search=2459) `2459` registerd with IANA as the peer port protocol. [via](https://xrpl.org/peer-protocol.html#peer-protocol-port)
 
 See [XRPL Developer Tools](#xrpl-developer-tools) for connecting to your node or any other node, such as a public one like [XRPLcluster](https://xrplcluster.com).
@@ -342,13 +342,13 @@ Application.
 
 ##### [XUMM][#xumm.app] Wallets
 
+* [xumm4j](https://github.com/francisrosario/xumm4j) ⭐ 7 | 🐛 25 | 🌐 Java | 📅 2025-08-17 - The Java version of the XUMM SDK for [XUMM][#xumm.app] by [francisrosario](https://github.com/francisrosario)
 * [XUMM SDK JS/TS][#xumm-sdk] - The TypeScript/JavaScript SDK for the [XUMM][#xumm.app] wallet,
   by [XRPL-Labs](https://github.com/XRPL-Labs/)
   * *See also [Xumm Community](#app/xumm-community)*
 * [XUMM SDK Python](https://pypi.org/project/xumm-sdk-py/) - The Python version of the XUMM SDK for [XUMM][#xumm.app]
 * [XUMM SDK PHP](https://packagist.org/packages/xrpl/xumm-sdk-php) - The PHP version of the XUMM SDK for [XUMM][#xumm.app]
 * [XUMM.NET.SDK](https://www.nuget.org/packages/XUMM.NET.SDK) - The .NET/C# version of the XUMM SDK for [XUMM][#xumm.app]
-* [xumm4j](https://github.com/francisrosario/xumm4j) ⭐ 7 | 🐛 25 | 🌐 Java | 📅 2025-08-17 - The Java version of the XUMM SDK for [XUMM][#xumm.app] by [francisrosario](https://github.com/francisrosario)
 
 ### Libs/Unverified
 
@@ -457,13 +457,13 @@ Applications that integrate or involve the XRPL.
 
 ## Software as a Service (SaaS)
 
+* [XRPhone](https://xrphone.app): Pay merchant invoices over the phone using XRP. [Source](https://github.com/jremi/xrphone) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2022-08-14
 * [Block Trac](https://blocktr.ac) <a name="app/bloctrac"></a>
   💫 🪄✨ - Constant monitoring of an account on various block chains, including XRPL.
   JSONPath expressions allow powerful filtering, example filters are provided, or you can use the create new
   filter wizard. *Formerly known as ZerpTracker.*
 * [xrpayments.co](https://xrpayments.co): Tool to generate payment request QR (with currency conversion) There's a
   corresponding 📱 App that requires registration here.
-* [XRPhone](https://xrphone.app): Pay merchant invoices over the phone using XRP. [Source](https://github.com/jremi/xrphone) ⭐ 0 | 🐛 0 | 🌐 JavaScript | 📅 2022-08-14
 * [XUMM.community](https://xumm.community/) 🪄✨ <kbd>M</kbd><kbd>T</kbd> <a name="app/xumm-community"></a> - Xumm Community is a useful wizard/tool that compliments the
   XUMM wallet
 
@@ -514,7 +514,7 @@ Applications that integrate or involve the XRPL.
 # XRPL Cross Blockchain
 
 XRP is utilized to connect other block chains to the XRPL.
-This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,189 | 🐛 968 | 🌐 C++ | 📅 2026-08-24
+This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,189 | 🐛 967 | 🌐 C++ | 📅 2026-08-24
 and the native token of the XRPL.
 
 ## Cross BlockChain / Sidechains
