@@ -12,7 +12,7 @@
             "archived": false,
             "id": 380284064,
             "language": "TypeScript",
-            "last_commit": "2026-08-24T23:41:23Z",
+            "last_commit": "2026-08-25T17:48:21Z",
             "owner": "ripple",
             "repo": "explorer",
             "stars": 238
@@ -108,10 +108,10 @@
                 "archived": false,
                 "id": 2724167,
                 "language": "C++",
-                "last_commit": "2026-08-25T09:59:22Z",
+                "last_commit": "2026-08-26T09:57:10Z",
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5191
+                "stars": 5190
               }
             },
             {
@@ -894,7 +894,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-25T10:05:39.719Z",
+    "last_updated": "2026-08-26T10:17:16.483Z",
     "original_repository": "wojake/awesome-xrpl",
     "original_repository_id": 378533199,
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",
