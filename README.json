@@ -12,7 +12,7 @@
             "archived": false,
             "id": 380284064,
             "language": "TypeScript",
-            "last_commit": "2026-08-25T17:48:21Z",
+            "last_commit": "2026-08-27T16:52:41Z",
             "owner": "ripple",
             "repo": "explorer",
             "stars": 238
@@ -108,7 +108,7 @@
                 "archived": false,
                 "id": 2724167,
                 "language": "C++",
-                "last_commit": "2026-08-27T11:57:29Z",
+                "last_commit": "2026-08-27T18:56:09Z",
                 "owner": "XRPLF",
                 "repo": "rippled",
                 "stars": 5190
@@ -805,7 +805,7 @@
             "archived": false,
             "id": 248221414,
             "language": "TypeScript",
-            "last_commit": "2025-08-30T21:23:48Z",
+            "last_commit": "2026-08-27T15:38:16Z",
             "owner": "XRPL-Labs",
             "repo": "Xaman-App",
             "stars": 117
@@ -894,7 +894,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T12:13:21.985Z",
+    "last_updated": "2026-08-27T19:59:44.542Z",
     "original_repository_info": {
       "archived": false,
       "id": 378533199,
