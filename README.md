@@ -178,14 +178,14 @@ Want to skip ahead? Use the [developer tools](#xrpl-developer-tools) and a [publ
 
 > a daemon (/ˈdiːmən/ or /ˈdeɪmən/) is a computer program that runs as a background process, rather than being under the direct control of an interactive user
 
-[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,190 | 🐛 962 | 🌐 C++ | 📅 2026-08-26 *This is the core of the XRPL*, it's a peer to peer network daemon.
+[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,190 | 🐛 959 | 🌐 C++ | 📅 2026-08-27 *This is the core of the XRPL*, it's a peer to peer network daemon.
 
 ###### …maybe we rename it `xrpld` 😎
 
 ## Installing, Configuring and Running `rippled`
 
 * [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
-  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,190 | 🐛 962 | 🌐 C++ | 📅 2026-08-26
+  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,190 | 🐛 959 | 🌐 C++ | 📅 2026-08-27
   is pretty verbose about each option, this wizard will
   package you up your validators, your config and even instructions in a zip you generate locally.
 * [XRPL.org Installing `rippled`](https://xrpl.org/install-rippled.html) Install and get the core running, its easy!
@@ -325,7 +325,7 @@ targeting web standards.
 #### XRPL Vanity Generators
 
 * [WietseWind/xrp-vanity-generator](https://github.com/WietseWind/xrp-vanity-generator) ⚠️ Archived - Using [ripple-keypairs](https://github.com/ripple/ripple-keypairs) ⚠️ Archived,
-  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,326 | 🐛 246 | 🌐 TypeScript | 📅 2026-08-25
+  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,327 | 🐛 246 | 🌐 TypeScript | 📅 2026-08-25
 * [nhartner/xrp-vanity-generator](https://github.com/nhartner/xrp-vanity-address) ⭐ 11 | 🐛 0 | 🌐 Java | 📅 2023-03-04 - Using [xrpl4j][#xrpl4j]
 
 ### Libs/SDK
@@ -480,7 +480,7 @@ Applications that integrate or involve the XRPL.
 
 * [**Ledger**][#ledger.com] - Ledger is a hardware wallet manufacturer. Their
   wallets support XRPL, and are supported by most tools, through their
-  [ledgerjs](https://github.com/LedgerHQ/ledgerjs) ⚠️ Archived SDK. [LedgerHQ/app-xrp](https://github.com/LedgerHQ/app-xrp) ⭐ 19 | 🐛 7 | 🌐 C | 📅 2026-08-24 is the source for the Ledger XRP app.
+  [ledgerjs](https://github.com/LedgerHQ/ledgerjs) ⚠️ Archived SDK. [LedgerHQ/app-xrp](https://github.com/LedgerHQ/app-xrp) ⭐ 19 | 🐛 8 | 🌐 C | 📅 2026-08-27 is the source for the Ledger XRP app.
 * 🌟[**XUMM**][#xumm.app] 📱 *Pronounced "sum"* - XUMM is a self-custodial wallet for
   Android & iOS, built by [XRPL-Labs][#xrpl-labs]. XUMM can hold many accounts,
   and is easy to setup. It strives to deliver the best XRPL experience. It has
@@ -514,7 +514,7 @@ Applications that integrate or involve the XRPL.
 # XRPL Cross Blockchain
 
 XRP is utilized to connect other block chains to the XRPL.
-This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,190 | 🐛 962 | 🌐 C++ | 📅 2026-08-26
+This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,190 | 🐛 959 | 🌐 C++ | 📅 2026-08-27
 and the native token of the XRPL.
 
 ## Cross BlockChain / Sidechains
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-26._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-27._
