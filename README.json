@@ -12,11 +12,12 @@
             "archived": false,
             "id": 380284064,
             "language": "TypeScript",
-            "last_commit": "2026-08-27T16:52:41Z",
+            "last_commit": "2026-08-28T20:42:42Z",
             "owner": "ripple",
             "repo": "explorer",
             "stars": 238
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         },
         {
           "node_type": "item",
@@ -31,7 +32,8 @@
             "owner": "nixer89",
             "repo": "ledger-observer",
             "stars": 5
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "XRPL Explorers"
@@ -54,7 +56,8 @@
                 "owner": "OnTheDEX",
                 "repo": "xrpledger-token-data-api",
                 "stars": 18
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -69,7 +72,8 @@
                 "owner": "hammertoe",
                 "repo": "dexter",
                 "stars": 14
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -84,7 +88,8 @@
                 "owner": "XRPL-Labs",
                 "repo": "XRPL-Persist-Price-Oracle",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": "XRPL Dev Tools pertaining to the DEX.\nSee also XRPL Developer Tools.",
@@ -108,11 +113,12 @@
                 "archived": false,
                 "id": 2724167,
                 "language": "C++",
-                "last_commit": "2026-08-27T18:56:09Z",
+                "last_commit": "2026-08-28T17:44:36Z",
                 "owner": "XRPLF",
                 "repo": "rippled",
                 "stars": 5190
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "children": [
@@ -129,7 +135,8 @@
                     "owner": "WietseWind",
                     "repo": "docker-xrpld",
                     "stars": 76
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -144,7 +151,8 @@
                     "owner": "WietseWind",
                     "repo": "docker-rippled-validator",
                     "stars": 24
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 }
               ],
               "description": null,
@@ -166,7 +174,8 @@
                     "owner": "dvilelaf",
                     "repo": "xrpldRaspberryPi",
                     "stars": 4
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 }
               ],
               "description": "The RPi4 is ARM64 capable and can compile , if you'd like to boot up an ARM 64-bit OS. The RPi4 @ 8GB meets the minimum requirements, it could meet the recommended requirements with a bump to its' RAM to 32GB since it also has 1Gbps networking.",
@@ -197,7 +206,8 @@
             "owner": "WietseWind",
             "repo": "rippled-ws-client-dashboard",
             "stars": 7
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         },
         {
           "node_type": "item",
@@ -212,7 +222,8 @@
             "owner": "JustAnotherDevv",
             "repo": "AttendifyXRPL",
             "stars": 1
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         },
         {
           "children": [
@@ -233,7 +244,8 @@
                         "owner": "DevNullProd",
                         "repo": "XRBP",
                         "stars": 11
-                      }
+                      },
+                      "first_seen": "2026-08-28T20:59:19.701Z"
                     },
                     {
                       "node_type": "item",
@@ -248,7 +260,8 @@
                         "owner": "xrpinnovations",
                         "repo": "node-red-contrib-xrpl",
                         "stars": 7
-                      }
+                      },
+                      "first_seen": "2026-08-28T20:59:19.701Z"
                     }
                   ],
                   "description": "Note: Your mileage may vary!",
@@ -277,7 +290,8 @@
                         "owner": "WietseWind",
                         "repo": "xrp-vanity-generator",
                         "stars": 33
-                      }
+                      },
+                      "first_seen": "2026-08-28T20:59:19.701Z"
                     },
                     {
                       "node_type": "item",
@@ -292,7 +306,8 @@
                         "owner": "nhartner",
                         "repo": "xrp-vanity-address",
                         "stars": 11
-                      }
+                      },
+                      "first_seen": "2026-08-28T20:59:19.701Z"
                     }
                   ],
                   "description": null,
@@ -323,7 +338,8 @@
                             "owner": "LedgerHQ",
                             "repo": "ledgerjs",
                             "stars": 574
-                          }
+                          },
+                          "first_seen": "2026-08-28T20:59:19.701Z"
                         }
                       ],
                       "description": null,
@@ -345,7 +361,8 @@
                             "owner": "francisrosario",
                             "repo": "xumm4j",
                             "stars": 7
-                          }
+                          },
+                          "first_seen": "2026-08-28T20:59:19.701Z"
                         }
                       ],
                       "description": null,
@@ -377,7 +394,8 @@
                     "owner": "rubblelabs",
                     "repo": "ripple",
                     "stars": 97
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -392,7 +410,8 @@
                     "owner": "ripple",
                     "repo": "ripple-rest",
                     "stars": 85
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -403,11 +422,12 @@
                     "archived": false,
                     "id": 412235347,
                     "language": "Rust",
-                    "last_commit": "2026-08-18T23:17:30Z",
+                    "last_commit": "2026-08-27T21:30:23Z",
                     "owner": "XRPLF",
                     "repo": "xrpl-rust",
                     "stars": 41
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -422,7 +442,8 @@
                     "owner": "ripple",
                     "repo": "ripple-libpp",
                     "stars": 19
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -437,7 +458,8 @@
                     "owner": "kevinejohn",
                     "repo": "ripple-lib-rpc-ruby",
                     "stars": 6
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -452,7 +474,8 @@
                     "owner": "xasos",
                     "repo": "RippleKit",
                     "stars": 5
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 },
                 {
                   "node_type": "item",
@@ -467,7 +490,8 @@
                     "owner": "singpolyma",
                     "repo": "ripple-haskell",
                     "stars": 2
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 }
               ],
               "description": "Note: Unverified and not updated (unofficially deprecated)",
@@ -489,7 +513,8 @@
                     "owner": "ripple-unmaintained",
                     "repo": "federation-php",
                     "stars": 10
-                  }
+                  },
+                  "first_seen": "2026-08-28T20:59:19.701Z"
                 }
               ],
               "description": "Note: Unverified or deprecated libaries. If they're deprecated, an alternative is included",
@@ -522,7 +547,8 @@
                 "owner": "rubblelabs",
                 "repo": "tx",
                 "stars": 18
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": null,
@@ -544,7 +570,8 @@
                 "owner": "devjin0617",
                 "repo": "ripplectron",
                 "stars": 52
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": null,
@@ -570,7 +597,8 @@
             "owner": "dvilelaf",
             "repo": "XRPL-monitor-ESP32",
             "stars": 5
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "Code/IoT"
@@ -593,7 +621,8 @@
                 "owner": "CoinClubQuincy",
                 "repo": "CoinClub_Framework",
                 "stars": 20
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": "Frameworks for interacting with multiple chains, including XRPL.",
@@ -621,7 +650,8 @@
                 "owner": "CodeShark",
                 "repo": "RippleGen",
                 "stars": 26
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": "See also XRPL Vanity Generators",
@@ -643,7 +673,8 @@
                 "owner": "ripple",
                 "repo": "rippled-historical-database",
                 "stars": 103
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -658,7 +689,8 @@
                 "owner": "ripple",
                 "repo": "ripple-data-api",
                 "stars": 49
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -673,7 +705,8 @@
                 "owner": "ripple",
                 "repo": "ripple-blobvault",
                 "stars": 37
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -688,7 +721,8 @@
                 "owner": "emschwartz",
                 "repo": "ripple-donate-widget",
                 "stars": 10
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -703,7 +737,8 @@
                 "owner": "miracle2k",
                 "repo": "ripple-federation-python",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             },
             {
               "node_type": "item",
@@ -718,7 +753,8 @@
                 "owner": "singpolyma",
                 "repo": "ripple-rails",
                 "stars": 5
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": null,
@@ -746,7 +782,8 @@
                 "owner": "jremi",
                 "repo": "xrphone",
                 "stars": 0
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": null,
@@ -768,7 +805,8 @@
                 "owner": "intelliot",
                 "repo": "xrpl-ideas",
                 "stars": 8
-              }
+              },
+              "first_seen": "2026-08-28T20:59:19.701Z"
             }
           ],
           "description": null,
@@ -794,7 +832,8 @@
             "owner": "LedgerHQ",
             "repo": "ledgerjs",
             "stars": 574
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         },
         {
           "node_type": "item",
@@ -809,7 +848,8 @@
             "owner": "XRPL-Labs",
             "repo": "Xaman-App",
             "stars": 117
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "Wallets (Non-Custodial)"
@@ -830,7 +870,8 @@
             "owner": "PayString",
             "repo": "paystring-cli",
             "stars": 21
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         },
         {
           "node_type": "item",
@@ -845,7 +886,8 @@
             "owner": "xpring-eng",
             "repo": "payid-lambda",
             "stars": 4
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "PayString"
@@ -866,7 +908,8 @@
             "owner": "vhpoet",
             "repo": "awesome-ilp",
             "stars": 7
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "Interledger"
@@ -887,14 +930,15 @@
             "owner": "vhpoet",
             "repo": "awesome-ripple",
             "stars": 200
-          }
+          },
+          "first_seen": "2026-08-28T20:59:19.701Z"
         }
       ],
       "title": "Misc"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-27T19:59:44.542Z",
+    "last_updated": "2026-08-28T20:59:19.701Z",
     "original_repository_info": {
       "archived": false,
       "id": 378533199,
