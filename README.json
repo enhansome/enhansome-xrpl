@@ -10,12 +10,23 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Open Source XRP Ledger Explorer",
+            "homepage": "https://livenet.xrpl.org/",
             "id": 380284064,
             "language": "TypeScript",
+            "license": "MIT",
             "last_commit": "2026-08-28T20:42:42Z",
+            "open_issues": 89,
             "owner": "ripple",
             "repo": "explorer",
-            "stars": 238
+            "stars": 238,
+            "topics": [
+              "blockchain",
+              "ripple",
+              "xrp",
+              "xrp-ledger",
+              "xrpl"
+            ]
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         },
@@ -26,12 +37,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "XRPL Observer - A real-time visualization of the XRP Ledger",
+            "homepage": null,
             "id": 248446840,
             "language": "Clojure",
+            "license": null,
             "last_commit": "2023-03-06T05:35:26Z",
+            "open_issues": 7,
             "owner": "nixer89",
             "repo": "ledger-observer",
-            "stars": 5
+            "stars": 5,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -50,12 +66,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": null,
+                "homepage": null,
                 "id": 490628738,
                 "language": null,
+                "license": null,
                 "last_commit": "2022-08-15T14:33:45Z",
+                "open_issues": 1,
                 "owner": "OnTheDEX",
                 "repo": "xrpledger-token-data-api",
-                "stars": 18
+                "stars": 18,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -66,12 +87,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A tool for creating orders on the XRP Ledger DEX",
+                "homepage": null,
                 "id": 377442946,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2021-07-06T10:32:58Z",
+                "open_issues": 0,
                 "owner": "hammertoe",
                 "repo": "dexter",
-                "stars": 14
+                "stars": 14,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -82,12 +108,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Persist XRP-USD price(s) on the XRPL ('oracle')",
+                "homepage": null,
                 "id": 333813747,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2023-12-04T20:27:36Z",
+                "open_issues": 0,
                 "owner": "XRPL-Labs",
                 "repo": "XRPL-Persist-Price-Oracle",
-                "stars": 5
+                "stars": 5,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -111,12 +142,25 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Decentralized cryptocurrency blockchain daemon implementing the XRP Ledger protocol in C++",
+                "homepage": "https://xrpl.org",
                 "id": 2724167,
                 "language": "C++",
-                "last_commit": "2026-08-28T17:44:36Z",
+                "license": "ISC",
+                "last_commit": "2026-08-29T00:18:16Z",
+                "open_issues": 961,
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5190
+                "stars": 5190,
+                "topics": [
+                  "blockchain",
+                  "c-plus-plus",
+                  "cplusplus",
+                  "cryptography",
+                  "xrp",
+                  "xrp-ledger",
+                  "xrpl"
+                ]
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -129,12 +173,19 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Run XRP Ledger (xrpld, formerly rippled) node in a Docker container",
+                    "homepage": "https://hub.docker.com/r/xrpllabsofficial/xrpld",
                     "id": 120847522,
                     "language": "Shell",
+                    "license": "MIT",
                     "last_commit": "2026-08-07T05:38:52Z",
+                    "open_issues": 1,
                     "owner": "WietseWind",
                     "repo": "docker-xrpld",
-                    "stars": 76
+                    "stars": 76,
+                    "topics": [
+                      "xrp-ledger"
+                    ]
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -145,12 +196,19 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Run a Ripple XRP (rippled) validator in a Docker container",
+                    "homepage": "https://medium.com/@WietseWind/how-to-run-a-ripple-validator-digitalocean-7e5fca1c3d77",
                     "id": 120738382,
                     "language": "Shell",
+                    "license": "MIT",
                     "last_commit": "2022-01-04T21:39:11Z",
+                    "open_issues": 0,
                     "owner": "WietseWind",
                     "repo": "docker-rippled-validator",
-                    "stars": 24
+                    "stars": 24,
+                    "topics": [
+                      "xrp-ledger"
+                    ]
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 }
@@ -168,12 +226,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A script to build and run xrpld (aka rippled) on a Raspberry Pi 4.",
+                    "homepage": null,
                     "id": 343454584,
                     "language": "Shell",
+                    "license": "GPL-3.0",
                     "last_commit": "2021-03-03T18:50:55Z",
+                    "open_issues": 0,
                     "owner": "dvilelaf",
                     "repo": "xrpldRaspberryPi",
-                    "stars": 4
+                    "stars": 4,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 }
@@ -200,12 +263,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Debugging & Development Dashboard for rippled-ws-client-pool",
+            "homepage": "https://xrp.fans/",
             "id": 135230794,
             "language": "Vue",
+            "license": null,
             "last_commit": "2022-12-07T16:14:46Z",
+            "open_issues": 21,
             "owner": "WietseWind",
             "repo": "rippled-ws-client-dashboard",
-            "stars": 7
+            "stars": 7,
+            "topics": [
+              "developer-dashboard",
+              "xrp-ledger"
+            ]
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         },
@@ -216,12 +287,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "This is the submission repo for the POAP bounty (https://github.com/XRPLBounties/Proposals/blob/main/open_bounties/0019%20Proof%20of%20Attendance%20Infrastructure.md).       Community Event Management Tool: Build a library to provide infrastructure that allows event organizers to mint and distribute Attendance NFTs on the XRP Ledger.",
+            "homepage": null,
             "id": 587123228,
             "language": "JavaScript",
+            "license": "MIT",
             "last_commit": "2023-06-23T01:21:00Z",
+            "open_issues": 0,
             "owner": "JustAnotherDevv",
             "repo": "AttendifyXRPL",
-            "stars": 1
+            "stars": 1,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         },
@@ -238,12 +314,22 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "XRP / Ruby Library",
+                        "homepage": null,
                         "id": 177889659,
                         "language": "Ruby",
+                        "license": "MIT",
                         "last_commit": "2020-04-23T20:47:20Z",
+                        "open_issues": 0,
                         "owner": "DevNullProd",
                         "repo": "XRBP",
-                        "stars": 11
+                        "stars": 11,
+                        "topics": [
+                          "blockchain",
+                          "cryptocurrency",
+                          "xrp",
+                          "xrp-ledger"
+                        ]
                       },
                       "first_seen": "2026-08-28T20:59:19.701Z"
                     },
@@ -254,12 +340,30 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "XRP Ledger, Node-Red Integration",
+                        "homepage": "https://xrpi.io",
                         "id": 189098960,
                         "language": "HTML",
+                        "license": "MIT",
                         "last_commit": "2023-03-06T08:20:28Z",
+                        "open_issues": 9,
                         "owner": "xrpinnovations",
                         "repo": "node-red-contrib-xrpl",
-                        "stars": 7
+                        "stars": 7,
+                        "topics": [
+                          "automation",
+                          "blockchain",
+                          "crypto",
+                          "dlt",
+                          "node",
+                          "node-red",
+                          "nodered",
+                          "ripple",
+                          "xrp",
+                          "xrpi",
+                          "xrpinnovations",
+                          "xrpl"
+                        ]
                       },
                       "first_seen": "2026-08-28T20:59:19.701Z"
                     }
@@ -284,12 +388,19 @@
                       "children": [],
                       "repo_info": {
                         "archived": true,
+                        "description": "Generate XRP Vanity Addresses (Wallets) on your local computer",
+                        "homepage": null,
                         "id": 119687888,
                         "language": "JavaScript",
+                        "license": "MIT",
                         "last_commit": "2021-03-08T20:17:53Z",
+                        "open_issues": 1,
                         "owner": "WietseWind",
                         "repo": "xrp-vanity-generator",
-                        "stars": 33
+                        "stars": 33,
+                        "topics": [
+                          "xrp-ledger"
+                        ]
                       },
                       "first_seen": "2026-08-28T20:59:19.701Z"
                     },
@@ -300,12 +411,17 @@
                       "children": [],
                       "repo_info": {
                         "archived": false,
+                        "description": "Java app to generate XRP Ledger vanity addresses",
+                        "homepage": null,
                         "id": 360588190,
                         "language": "Java",
+                        "license": "Apache-2.0",
                         "last_commit": "2023-03-04T20:19:43Z",
+                        "open_issues": 0,
                         "owner": "nhartner",
                         "repo": "xrp-vanity-address",
-                        "stars": 11
+                        "stars": 11,
+                        "topics": []
                       },
                       "first_seen": "2026-08-28T20:59:19.701Z"
                     }
@@ -332,12 +448,17 @@
                           "children": [],
                           "repo_info": {
                             "archived": true,
+                            "description": "⛔️ MOVED to monorepo \"ledger-live\"",
+                            "homepage": "https://github.com/LedgerHQ/ledger-live",
                             "id": 33945868,
                             "language": "TypeScript",
+                            "license": "Apache-2.0",
                             "last_commit": "2022-06-22T06:45:20Z",
+                            "open_issues": 124,
                             "owner": "LedgerHQ",
                             "repo": "ledgerjs",
-                            "stars": 574
+                            "stars": 574,
+                            "topics": []
                           },
                           "first_seen": "2026-08-28T20:59:19.701Z"
                         }
@@ -355,12 +476,22 @@
                           "children": [],
                           "repo_info": {
                             "archived": false,
+                            "description": "Java SDK - Interact with the XUMM Developer API the easy way 🌀",
+                            "homepage": null,
                             "id": 387440555,
                             "language": "Java",
+                            "license": "GPL-3.0",
                             "last_commit": "2025-08-17T09:09:49Z",
+                            "open_issues": 25,
                             "owner": "francisrosario",
                             "repo": "xumm4j",
-                            "stars": 7
+                            "stars": 7,
+                            "topics": [
+                              "java",
+                              "sdk",
+                              "xrpl",
+                              "xumm"
+                            ]
                           },
                           "first_seen": "2026-08-28T20:59:19.701Z"
                         }
@@ -388,12 +519,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "Go packages to interact with the Ripple protocol",
+                    "homepage": "https://godoc.org/github.com/rubblelabs/ripple",
                     "id": 20294364,
                     "language": "Go",
+                    "license": "ISC",
                     "last_commit": "2024-03-24T12:18:53Z",
+                    "open_issues": 13,
                     "owner": "rubblelabs",
                     "repo": "ripple",
-                    "stars": 97
+                    "stars": 97,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -404,12 +540,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "A RESTful API for submitting payments and monitoring accounts on the Ripple Network",
+                    "homepage": null,
                     "id": 16561603,
                     "language": "JavaScript",
+                    "license": "ISC",
                     "last_commit": "2023-04-07T10:17:01Z",
+                    "open_issues": 2,
                     "owner": "ripple",
                     "repo": "ripple-rest",
-                    "stars": 85
+                    "stars": 85,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -420,12 +561,25 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "A 100% Rust library to interact with the XRPL. XRPL Grant Winner",
+                    "homepage": "https://crates.io/crates/xrpl-rust",
                     "id": 412235347,
                     "language": "Rust",
+                    "license": "ISC",
                     "last_commit": "2026-08-27T21:30:23Z",
+                    "open_issues": 198,
                     "owner": "XRPLF",
                     "repo": "xrpl-rust",
-                    "stars": 41
+                    "stars": 41,
+                    "topics": [
+                      "blockchain",
+                      "cryptocurrency",
+                      "ledger",
+                      "rust-lang",
+                      "xrp",
+                      "xrp-ledger",
+                      "xrpl"
+                    ]
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -436,12 +590,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Standalone RCL-compatible transaction signing and serialization library",
+                    "homepage": null,
                     "id": 66310754,
                     "language": "C++",
+                    "license": "NOASSERTION",
                     "last_commit": "2021-01-14T14:13:57Z",
+                    "open_issues": 3,
                     "owner": "ripple",
                     "repo": "ripple-libpp",
-                    "stars": 19
+                    "stars": 19,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -452,12 +611,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Ripple Client Ruby Gem",
+                    "homepage": null,
                     "id": 14187691,
                     "language": "Ruby",
+                    "license": "ISC",
                     "last_commit": "2014-01-07T00:39:05Z",
+                    "open_issues": 1,
                     "owner": "kevinejohn",
                     "repo": "ripple-lib-rpc-ruby",
-                    "stars": 6
+                    "stars": 6,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -468,12 +632,21 @@
                   "children": [],
                   "repo_info": {
                     "archived": true,
+                    "description": "Swift iOS interface to the Ripple Consensus Ledger.",
+                    "homepage": null,
                     "id": 97887651,
                     "language": "Swift",
+                    "license": "MIT",
                     "last_commit": "2017-08-04T18:24:46Z",
+                    "open_issues": 0,
                     "owner": "xasos",
                     "repo": "RippleKit",
-                    "stars": 5
+                    "stars": 5,
+                    "topics": [
+                      "ios-sdk",
+                      "ripple",
+                      "swift"
+                    ]
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 },
@@ -484,12 +657,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Implementation of Ripple client protocol in Haskell",
+                    "homepage": null,
                     "id": 9570851,
                     "language": "Haskell",
+                    "license": "ISC",
                     "last_commit": "2015-07-04T21:30:41Z",
+                    "open_issues": 1,
                     "owner": "singpolyma",
                     "repo": "ripple-haskell",
-                    "stars": 2
+                    "stars": 2,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 }
@@ -507,12 +685,17 @@
                   "children": [],
                   "repo_info": {
                     "archived": false,
+                    "description": "Simple PHP federation endpoint with a static JSON dataset",
+                    "homepage": null,
                     "id": 11554720,
                     "language": "PHP",
+                    "license": "ISC",
                     "last_commit": "2013-11-08T22:44:04Z",
+                    "open_issues": 0,
                     "owner": "ripple-unmaintained",
                     "repo": "federation-php",
-                    "stars": 10
+                    "stars": 10,
+                    "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
                 }
@@ -541,12 +724,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Tool for executing transactions on the Ripple network",
+                "homepage": null,
                 "id": 21583515,
                 "language": "Go",
+                "license": null,
                 "last_commit": "2015-05-03T17:05:07Z",
+                "open_issues": 8,
                 "owner": "rubblelabs",
                 "repo": "tx",
-                "stars": 18
+                "stars": 18,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -564,12 +752,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": ":credit_card: ripple wallet for electron",
+                "homepage": null,
                 "id": 98654734,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2017-11-28T09:34:58Z",
+                "open_issues": 3,
                 "owner": "devjin0617",
                 "repo": "ripplectron",
-                "stars": 52
+                "stars": 52,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -591,12 +784,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A simple monitor for the XRP Ledger volume based on the ESP32 platform.",
+            "homepage": null,
             "id": 172041914,
             "language": "Python",
+            "license": "GPL-3.0",
             "last_commit": "2019-02-25T14:52:08Z",
+            "open_issues": 0,
             "owner": "dvilelaf",
             "repo": "XRPL-monitor-ESP32",
-            "stars": 5
+            "stars": 5,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -615,12 +813,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A python Library for multiple Blockchains under the Brand CoinClub, Blockchains include:XDC XRP, XLM, FileCoin, Algorand, Cardano, and more",
+                "homepage": null,
                 "id": 356447896,
                 "language": "Python",
+                "license": "MIT",
                 "last_commit": "2022-03-17T03:30:15Z",
+                "open_issues": 0,
                 "owner": "CoinClubQuincy",
                 "repo": "CoinClub_Framework",
-                "stars": 20
+                "stars": 20,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -644,12 +847,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "A simple multithreaded vanity generator for the ripple p2p network",
+                "homepage": null,
                 "id": 9333789,
                 "language": "C++",
+                "license": "NOASSERTION",
                 "last_commit": "2013-04-11T03:19:37Z",
+                "open_issues": 3,
                 "owner": "CodeShark",
                 "repo": "RippleGen",
-                "stars": 26
+                "stars": 26,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -667,12 +875,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": " SQL database as a canonical source of historical data",
+                "homepage": null,
                 "id": 22237229,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2023-11-23T18:07:29Z",
+                "open_issues": 21,
                 "owner": "ripple",
                 "repo": "rippled-historical-database",
-                "stars": 103
+                "stars": 103,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -683,12 +896,17 @@
               "children": [],
               "repo_info": {
                 "archived": true,
+                "description": "Ripplecharts API (DEPRECATED)",
+                "homepage": null,
                 "id": 17228368,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2015-11-24T19:20:16Z",
+                "open_issues": 8,
                 "owner": "ripple",
                 "repo": "ripple-data-api",
-                "stars": 49
+                "stars": 49,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -699,12 +917,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Server for storing persistent data for Ripple clients",
+                "homepage": "https://ripple.com/wiki/Blobvault",
                 "id": 6258339,
                 "language": "JavaScript",
+                "license": null,
                 "last_commit": "2023-11-23T18:26:41Z",
+                "open_issues": 6,
                 "owner": "ripple",
                 "repo": "ripple-blobvault",
-                "stars": 37
+                "stars": 37,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -715,12 +938,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "An embeddable widget for paying with Ripple.",
+                "homepage": null,
                 "id": 16403192,
                 "language": null,
+                "license": null,
                 "last_commit": "2014-02-01T01:27:03Z",
+                "open_issues": 1,
                 "owner": "emschwartz",
                 "repo": "ripple-donate-widget",
-                "stars": 10
+                "stars": 10,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -731,12 +959,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "ripple/federation-php for Python.",
+                "homepage": null,
                 "id": 15032011,
                 "language": "Python",
+                "license": null,
                 "last_commit": "2014-06-24T21:28:59Z",
+                "open_issues": 0,
                 "owner": "miracle2k",
                 "repo": "ripple-federation-python",
-                "stars": 5
+                "stars": 5,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             },
@@ -747,12 +980,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Rails integration for Ripple payment notifications.",
+                "homepage": "https://rubygems.org/gems/ripple-rails",
                 "id": 9229949,
                 "language": "Ruby",
+                "license": "ISC",
                 "last_commit": "2013-04-26T12:41:01Z",
+                "open_issues": 0,
                 "owner": "singpolyma",
                 "repo": "ripple-rails",
-                "stars": 5
+                "stars": 5,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -776,12 +1014,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "📱 Pay invoices over the phone with the digital asset XRP.  https://xrphone.app",
+                "homepage": null,
                 "id": 410724867,
                 "language": "JavaScript",
+                "license": "MIT",
                 "last_commit": "2022-08-14T20:12:11Z",
+                "open_issues": 0,
                 "owner": "jremi",
                 "repo": "xrphone",
-                "stars": 0
+                "stars": 0,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -799,12 +1042,17 @@
               "children": [],
               "repo_info": {
                 "archived": false,
+                "description": "Free ideas of things you could build on the XRP Ledger",
+                "homepage": null,
                 "id": 358477563,
                 "language": null,
+                "license": null,
                 "last_commit": "2021-10-03T03:40:27Z",
+                "open_issues": 0,
                 "owner": "intelliot",
                 "repo": "xrpl-ideas",
-                "stars": 8
+                "stars": 8,
+                "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -826,12 +1074,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "⛔️ MOVED to monorepo \"ledger-live\"",
+            "homepage": "https://github.com/LedgerHQ/ledger-live",
             "id": 33945868,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2022-06-22T06:45:20Z",
+            "open_issues": 124,
             "owner": "LedgerHQ",
             "repo": "ledgerjs",
-            "stars": 574
+            "stars": 574,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         },
@@ -842,12 +1095,17 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "Xaman (Formerly XUMM) for iOS and Android (React Native)",
+            "homepage": "https://support.xumm.app",
             "id": 248221414,
             "language": "TypeScript",
+            "license": "NOASSERTION",
             "last_commit": "2026-08-27T15:38:16Z",
+            "open_issues": 3,
             "owner": "XRPL-Labs",
             "repo": "Xaman-App",
-            "stars": 117
+            "stars": 117,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -864,12 +1122,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "PayString CLI",
+            "homepage": null,
             "id": 288501076,
             "language": "TypeScript",
+            "license": "Apache-2.0",
             "last_commit": "2022-12-23T05:04:55Z",
+            "open_issues": 2,
             "owner": "PayString",
             "repo": "paystring-cli",
-            "stars": 21
+            "stars": 21,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         },
@@ -880,12 +1143,17 @@
           "children": [],
           "repo_info": {
             "archived": true,
+            "description": "AWS Lambda setup for a PayID server",
+            "homepage": null,
             "id": 282028199,
             "language": "Shell",
+            "license": null,
             "last_commit": "2020-09-30T21:07:06Z",
+            "open_issues": 0,
             "owner": "xpring-eng",
             "repo": "payid-lambda",
-            "stars": 4
+            "stars": 4,
+            "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -902,12 +1170,19 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A curated list of ILP resources https://interledger.org",
+            "homepage": null,
             "id": 73866328,
             "language": null,
+            "license": null,
             "last_commit": "2018-04-04T17:00:42Z",
+            "open_issues": 0,
             "owner": "vhpoet",
             "repo": "awesome-ilp",
-            "stars": 7
+            "stars": 7,
+            "topics": [
+              "awesome"
+            ]
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -924,12 +1199,20 @@
           "children": [],
           "repo_info": {
             "archived": false,
+            "description": "A curated list of Ripple resources",
+            "homepage": "http://ripple.com",
             "id": 14434679,
             "language": null,
+            "license": null,
             "last_commit": "2021-07-02T15:40:31Z",
+            "open_issues": 2,
             "owner": "vhpoet",
             "repo": "awesome-ripple",
-            "stars": 200
+            "stars": 200,
+            "topics": [
+              "awesome",
+              "ripple"
+            ]
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
         }
@@ -938,15 +1221,26 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-28T20:59:19.701Z",
+    "last_updated": "2026-08-29T04:57:34.371Z",
     "original_repository_info": {
       "archived": false,
+      "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
+      "homepage": null,
       "id": 378533199,
       "language": null,
+      "license": null,
       "last_commit": "2024-03-07T11:17:08Z",
+      "open_issues": 7,
       "owner": "wojake",
       "repo": "awesome-xrpl",
-      "stars": 106
+      "stars": 106,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "hacktoberfest",
+        "xrp",
+        "xrpl"
+      ]
     },
     "original_repository_sha": "5b34b5751c06b9fe44a87a8b492125b8d2e0ab43",
     "enhanced_repository": "enhansome/enhansome-xrpl",
