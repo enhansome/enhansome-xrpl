@@ -35,7 +35,7 @@ Here are some things to know:
 # XRPL Explorers
 
 * [XRPL.org Explorer](https://livenet.xrpl.org) 💫 [<kbd>M</kbd>](https://livenet.xrpl.org)[<kbd>T</kbd>](https://testnet.xrpl.org)[<kbd>D</kbd>](https://devnet.xrpl.org)
-  XRPL.org's explorer src: [ripple/explorer](https://github.com/ripple/explorer) ⭐ 240 | 🐛 89 | 🌐 TypeScript | 📅 2026-09-01
+  XRPL.org's explorer src: [ripple/explorer](https://github.com/ripple/explorer) ⭐ 240 | 🐛 89 | 🌐 TypeScript | 📅 2026-09-02
 * [Ledger Observer](https://observer.xrpldata.com/) - A *visual* exploration of
   an account and \ connections. Originally created by
   [@LedgerExplorer](https://twitter.com/LedgerExplorer). src: [nixer89/ledger-observer](https://github.com/nixer89/ledger-observer) ⭐ 5 | 🐛 7 | 🌐 Clojure | 📅 2023-03-06
@@ -178,14 +178,14 @@ Want to skip ahead? Use the [developer tools](#xrpl-developer-tools) and a [publ
 
 > a daemon (/ˈdiːmən/ or /ˈdeɪmən/) is a computer program that runs as a background process, rather than being under the direct control of an interactive user
 
-[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,192 | 🐛 968 | 🌐 C++ | 📅 2026-09-02 *This is the core of the XRPL*, it's a peer to peer network daemon.
+[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,188 | 🐛 968 | 🌐 C++ | 📅 2026-09-03 *This is the core of the XRPL*, it's a peer to peer network daemon.
 
 ###### …maybe we rename it `xrpld` 😎
 
 ## Installing, Configuring and Running `rippled`
 
 * [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
-  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,192 | 🐛 968 | 🌐 C++ | 📅 2026-09-02
+  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,188 | 🐛 968 | 🌐 C++ | 📅 2026-09-03
   is pretty verbose about each option, this wizard will
   package you up your validators, your config and even instructions in a zip you generate locally.
 * [XRPL.org Installing `rippled`](https://xrpl.org/install-rippled.html) Install and get the core running, its easy!
@@ -325,7 +325,7 @@ targeting web standards.
 #### XRPL Vanity Generators
 
 * [WietseWind/xrp-vanity-generator](https://github.com/WietseWind/xrp-vanity-generator) ⚠️ Archived - Using [ripple-keypairs](https://github.com/ripple/ripple-keypairs) ⚠️ Archived,
-  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,328 | 🐛 248 | 🌐 TypeScript | 📅 2026-09-01
+  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,327 | 🐛 250 | 🌐 TypeScript | 📅 2026-09-03
 * [nhartner/xrp-vanity-generator](https://github.com/nhartner/xrp-vanity-address) ⭐ 11 | 🐛 0 | 🌐 Java | 📅 2023-03-04 - Using [xrpl4j][#xrpl4j]
 
 ### Libs/SDK
@@ -366,7 +366,7 @@ Application.
 
 **Note**: Unverified or deprecated libaries. If they're deprecated, an alternative is included
 
-* [federation-php](https://github.com/ripple-unmaintained/federation-php) ⭐ 10 | 🐛 0 | 🌐 PHP | 📅 2013-11-08 - *No Maintainer* -
+* [federation-php](https://github.com/ripple-unmaintained/federation-php) ⭐ 9 | 🐛 0 | 🌐 PHP | 📅 2013-11-08 - *No Maintainer* -
   Simple PHP federation endpoint with a static JSON dataset. *No alternative known*
 
 # Code/App
@@ -416,7 +416,7 @@ See also [XRPL Vanity Generators](#xrpl-vanity-generators)
 
 * [rippled-historical-database](https://github.com/ripple/rippled-historical-database) ⭐ 103 | 🐛 21 | 🌐 JavaScript | 📅 2023-11-23: SQL database as a canonical source of historical data in Ripple
 * [ripple-data-api](https://github.com/ripple/ripple-data-api) ⚠️ Archived *Deprecated*
-* [ripple-blobvault](https://github.com/ripple/ripple-blobvault) ⭐ 37 | 🐛 6 | 🌐 JavaScript | 📅 2023-11-23: Server for storing persistent data for Ripple clients
+* [ripple-blobvault](https://github.com/ripple/ripple-blobvault) ⭐ 36 | 🐛 6 | 🌐 JavaScript | 📅 2023-11-23: Server for storing persistent data for Ripple clients
 * [Ripple Checkout](https://github.com/emschwartz/ripple-donate-widget) ⭐ 10 | 🐛 1 | 📅 2014-02-01: An embeddable widget for paying with Ripple.
 * [federation-python](https://github.com/miracle2k/ripple-federation-python) ⭐ 5 | 🐛 0 | 🌐 Python | 📅 2014-06-24: Python module for a simple federation endpoint.
 * [Ripple Rails](https://github.com/singpolyma/ripple-rails/) ⭐ 5 | 🐛 0 | 🌐 Ruby | 📅 2013-04-26
@@ -480,7 +480,7 @@ Applications that integrate or involve the XRPL.
 
 * [**Ledger**][#ledger.com] - Ledger is a hardware wallet manufacturer. Their
   wallets support XRPL, and are supported by most tools, through their
-  [ledgerjs](https://github.com/LedgerHQ/ledgerjs) ⚠️ Archived SDK. [LedgerHQ/app-xrp](https://github.com/LedgerHQ/app-xrp) ⭐ 19 | 🐛 7 | 🌐 C | 📅 2026-08-28 is the source for the Ledger XRP app.
+  [ledgerjs](https://github.com/LedgerHQ/ledgerjs) ⚠️ Archived SDK. [LedgerHQ/app-xrp](https://github.com/LedgerHQ/app-xrp) ⭐ 19 | 🐛 7 | 🌐 C | 📅 2026-09-02 is the source for the Ledger XRP app.
 * 🌟[**XUMM**][#xumm.app] 📱 *Pronounced "sum"* - XUMM is a self-custodial wallet for
   Android & iOS, built by [XRPL-Labs][#xrpl-labs]. XUMM can hold many accounts,
   and is easy to setup. It strives to deliver the best XRPL experience. It has
@@ -514,7 +514,7 @@ Applications that integrate or involve the XRPL.
 # XRPL Cross Blockchain
 
 XRP is utilized to connect other block chains to the XRPL.
-This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,192 | 🐛 968 | 🌐 C++ | 📅 2026-09-02
+This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,188 | 🐛 968 | 🌐 C++ | 📅 2026-09-03
 and the native token of the XRPL.
 
 ## Cross BlockChain / Sidechains
@@ -550,9 +550,9 @@ These are networks that run in parallel to the XRPL, the XRP input into the netw
 
 Stuff that didn't really fit anywhere else.
 
-* [Awesome Ripple](https://github.com/vhpoet/awesome-ripple) ⭐ 201 | 🐛 2 | 📅 2021-07-02 - A related awesome list, that uses a legacy name.
+* [Awesome Ripple](https://github.com/vhpoet/awesome-ripple) ⭐ 200 | 🐛 2 | 📅 2021-07-02 - A related awesome list, that uses a legacy name.
   Many items from
-  [`README.md@3d85e95`](https://github.com/vhpoet/awesome-ripple/blob/3d85e95f1614af6a4dca89a03e1f8156670a97ef/README.md) ⭐ 201 | 🐛 2 | 📅 2021-07-02
+  [`README.md@3d85e95`](https://github.com/vhpoet/awesome-ripple/blob/3d85e95f1614af6a4dca89a03e1f8156670a97ef/README.md) ⭐ 200 | 🐛 2 | 📅 2021-07-02
 * [FUD Bingo](https://fudbingo.com) - A bingo card for XRP common misconceptions. Created by [Wietse][#wietse]
 * [Jed Balance](https://jed.tequ.dev/) - A stats page for analyzing the
   [`tacostand`](https://bithomp.com/explorer/tacostand) settlement wallet,
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-02._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-09-03._

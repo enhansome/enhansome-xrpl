@@ -15,7 +15,7 @@
             "id": 380284064,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-09-01T20:41:22Z",
+            "last_commit": "2026-09-02T17:45:08Z",
             "open_issues": 89,
             "owner": "ripple",
             "repo": "explorer",
@@ -147,11 +147,11 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-09-02T13:46:08Z",
+                "last_commit": "2026-09-03T13:08:33Z",
                 "open_issues": 968,
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5192,
+                "stars": 5188,
                 "topics": [
                   "blockchain",
                   "c-plus-plus",
@@ -549,7 +549,7 @@
                     "open_issues": 2,
                     "owner": "ripple",
                     "repo": "ripple-rest",
-                    "stars": 85,
+                    "stars": 84,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
@@ -694,7 +694,7 @@
                     "open_issues": 0,
                     "owner": "ripple-unmaintained",
                     "repo": "federation-php",
-                    "stars": 10,
+                    "stars": 9,
                     "topics": []
                   },
                   "first_seen": "2026-08-28T20:59:19.701Z"
@@ -905,7 +905,7 @@
                 "open_issues": 8,
                 "owner": "ripple",
                 "repo": "ripple-data-api",
-                "stars": 49,
+                "stars": 48,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
@@ -926,7 +926,7 @@
                 "open_issues": 6,
                 "owner": "ripple",
                 "repo": "ripple-blobvault",
-                "stars": 37,
+                "stars": 36,
                 "topics": []
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
@@ -1208,7 +1208,7 @@
             "open_issues": 2,
             "owner": "vhpoet",
             "repo": "awesome-ripple",
-            "stars": 201,
+            "stars": 200,
             "topics": [
               "awesome",
               "ripple"
@@ -1221,7 +1221,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-02T13:51:53.191Z",
+    "last_updated": "2026-09-03T13:52:19.769Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
