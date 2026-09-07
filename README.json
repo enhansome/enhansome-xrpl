@@ -147,8 +147,8 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-09-05T00:53:03Z",
-                "open_issues": 958,
+                "last_commit": "2026-09-07T15:05:35Z",
+                "open_issues": 963,
                 "owner": "XRPLF",
                 "repo": "rippled",
                 "stars": 5188,
@@ -457,7 +457,7 @@
                             "open_issues": 124,
                             "owner": "LedgerHQ",
                             "repo": "ledgerjs",
-                            "stars": 574,
+                            "stars": 573,
                             "topics": []
                           },
                           "first_seen": "2026-08-28T20:59:19.701Z"
@@ -1083,7 +1083,7 @@
             "open_issues": 124,
             "owner": "LedgerHQ",
             "repo": "ledgerjs",
-            "stars": 574,
+            "stars": 573,
             "topics": []
           },
           "first_seen": "2026-08-28T20:59:19.701Z"
@@ -1221,7 +1221,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-06T13:07:18.719Z",
+    "last_updated": "2026-09-07T15:14:19.698Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
