@@ -147,11 +147,11 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-09-19T19:06:49Z",
+                "last_commit": "2026-09-21T15:28:07Z",
                 "open_issues": 979,
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5195,
+                "stars": 5196,
                 "topics": [
                   "blockchain",
                   "c-plus-plus",
@@ -172,14 +172,14 @@
                   "description": "Docker hub",
                   "children": [],
                   "repo_info": {
-                    "archived": false,
+                    "archived": true,
                     "description": "Run XRP Ledger (xrpld, formerly rippled) node in a Docker container",
                     "homepage": "https://hub.docker.com/r/xrpllabsofficial/xrpld",
                     "id": 120847522,
                     "language": "Shell",
                     "license": "MIT",
                     "last_commit": "2026-09-19T13:47:46Z",
-                    "open_issues": 1,
+                    "open_issues": 2,
                     "owner": "WietseWind",
                     "repo": "docker-xrpld",
                     "stars": 75,
@@ -1221,7 +1221,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-09-20T13:41:41.441Z",
+    "last_updated": "2026-09-21T16:00:57.490Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
