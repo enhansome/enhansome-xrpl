@@ -147,8 +147,8 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-10-03T14:22:45Z",
-                "open_issues": 1086,
+                "last_commit": "2026-10-04T11:18:24Z",
+                "open_issues": 1087,
                 "owner": "XRPLF",
                 "repo": "rippled",
                 "stars": 5218,
@@ -1221,7 +1221,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-03T14:25:15.940Z",
+    "last_updated": "2026-10-04T14:58:28.126Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
