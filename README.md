@@ -126,7 +126,7 @@ Tools to visualize trades on the DEX.
 XRPL Dev Tools pertaining to the [DEX](#xrpl-dex).
 
 * [API for Token Price Metrics from OnTheDEX.live](https://github.com/OnTheDEX/xrpledger-token-data-api) ⭐ 18 | 🐛 1 | 📅 2022-08-15 - Get accurate and up-to-date token trading data for all tokens traded on the XRP Ledger.  Includes live (via websocket) and static (via REST) API for price, volume and other metrics, plus OHLC data for charting use.
-* [dexter](https://github.com/hammertoe/dexter) ⭐ 13 | 🐛 0 | 🌐 Python | 📅 2021-07-06 - A tool for creating orders on the XRPL DEX.
+* [dexter](https://github.com/hammertoe/dexter) ⭐ 14 | 🐛 0 | 🌐 Python | 📅 2021-07-06 - A tool for creating orders on the XRPL DEX.
   Created by [@hammertoe](https://twitter.com/hammertoe) during the Ripple Innovate hackathon.
   Uses [`xrpl-py`][#xrpl-py]
 * [XRPL-Persist-Price-Oracle](https://github.com/XRPL-Labs/XRPL-Persist-Price-Oracle) ⭐ 5 | 🐛 0 | 🌐 JavaScript | 📅 2023-12-04 - Open source code that persists price information on-ledger, providing a price feed.
@@ -178,14 +178,14 @@ Want to skip ahead? Use the [developer tools](#xrpl-developer-tools) and a [publ
 
 > a daemon (/ˈdiːmən/ or /ˈdeɪmən/) is a computer program that runs as a background process, rather than being under the direct control of an interactive user
 
-[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,218 | 🐛 1,086 | 🌐 C++ | 📅 2026-10-05 *This is the core of the XRPL*, it's a peer to peer network daemon.
+[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,219 | 🐛 1,108 | 🌐 C++ | 📅 2026-10-06 *This is the core of the XRPL*, it's a peer to peer network daemon.
 
 ###### …maybe we rename it `xrpld` 😎
 
 ## Installing, Configuring and Running `rippled`
 
 * [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
-  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,218 | 🐛 1,086 | 🌐 C++ | 📅 2026-10-05
+  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,219 | 🐛 1,108 | 🌐 C++ | 📅 2026-10-06
   is pretty verbose about each option, this wizard will
   package you up your validators, your config and even instructions in a zip you generate locally.
 * [XRPL.org Installing `rippled`](https://xrpl.org/install-rippled.html) Install and get the core running, its easy!
@@ -325,7 +325,7 @@ targeting web standards.
 #### XRPL Vanity Generators
 
 * [WietseWind/xrp-vanity-generator](https://github.com/WietseWind/xrp-vanity-generator) ⚠️ Archived - Using [ripple-keypairs](https://github.com/ripple/ripple-keypairs) ⚠️ Archived,
-  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,333 | 🐛 227 | 🌐 TypeScript | 📅 2026-10-02
+  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,333 | 🐛 228 | 🌐 TypeScript | 📅 2026-10-06
 * [nhartner/xrp-vanity-generator](https://github.com/nhartner/xrp-vanity-address) ⭐ 11 | 🐛 0 | 🌐 Java | 📅 2023-03-04 - Using [xrpl4j][#xrpl4j]
 
 ### Libs/SDK
@@ -514,7 +514,7 @@ Applications that integrate or involve the XRPL.
 # XRPL Cross Blockchain
 
 XRP is utilized to connect other block chains to the XRPL.
-This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,218 | 🐛 1,086 | 🌐 C++ | 📅 2026-10-05
+This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,219 | 🐛 1,108 | 🌐 C++ | 📅 2026-10-06
 and the native token of the XRPL.
 
 ## Cross BlockChain / Sidechains
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-05._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-06._
