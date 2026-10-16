@@ -15,11 +15,11 @@
             "id": 380284064,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-10-14T19:33:26Z",
+            "last_commit": "2026-10-15T20:47:42Z",
             "open_issues": 100,
             "owner": "ripple",
             "repo": "explorer",
-            "stars": 244,
+            "stars": 245,
             "topics": [
               "blockchain",
               "ripple",
@@ -147,8 +147,8 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-10-15T14:23:46Z",
-                "open_issues": 1105,
+                "last_commit": "2026-10-16T14:06:47Z",
+                "open_issues": 1097,
                 "owner": "XRPLF",
                 "repo": "rippled",
                 "stars": 5229,
@@ -182,7 +182,7 @@
                     "open_issues": 2,
                     "owner": "WietseWind",
                     "repo": "docker-xrpld",
-                    "stars": 75,
+                    "stars": 76,
                     "topics": [
                       "xrp-ledger"
                     ]
@@ -1221,7 +1221,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-10-15T14:24:34.277Z",
+    "last_updated": "2026-10-16T14:15:06.814Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
@@ -1233,7 +1233,7 @@
       "open_issues": 9,
       "owner": "wojake",
       "repo": "awesome-xrpl",
-      "stars": 107,
+      "stars": 108,
       "topics": [
         "awesome",
         "awesome-list",
