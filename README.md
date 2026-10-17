@@ -178,14 +178,14 @@ Want to skip ahead? Use the [developer tools](#xrpl-developer-tools) and a [publ
 
 > a daemon (/ˈdiːmən/ or /ˈdeɪmən/) is a computer program that runs as a background process, rather than being under the direct control of an interactive user
 
-[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,229 | 🐛 1,097 | 🌐 C++ | 📅 2026-10-16 *This is the core of the XRPL*, it's a peer to peer network daemon.
+[`rippled`](https://github.com/ripple/rippled/) ⭐ 5,229 | 🐛 1,089 | 🌐 C++ | 📅 2026-10-17 *This is the core of the XRPL*, it's a peer to peer network daemon.
 
 ###### …maybe we rename it `xrpld` 😎
 
 ## Installing, Configuring and Running `rippled`
 
 * [Node Configurator](https://xrplf.github.io/xrpl-node-configurator/) - 🪄✨ This wizard will walk you through configuring a node!
-  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,229 | 🐛 1,097 | 🌐 C++ | 📅 2026-10-16
+  If you want to go full custom. The [shipped, example configuration file](https://github.com/ripple/rippled/blob/7bd5d51e4e4e76a5547051d30b330739618eddb0/cfg/rippled-example.cfg) ⭐ 5,229 | 🐛 1,089 | 🌐 C++ | 📅 2026-10-17
   is pretty verbose about each option, this wizard will
   package you up your validators, your config and even instructions in a zip you generate locally.
 * [XRPL.org Installing `rippled`](https://xrpl.org/install-rippled.html) Install and get the core running, its easy!
@@ -514,7 +514,7 @@ Applications that integrate or involve the XRPL.
 # XRPL Cross Blockchain
 
 XRP is utilized to connect other block chains to the XRPL.
-This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,229 | 🐛 1,097 | 🌐 C++ | 📅 2026-10-16
+This is an intrinsic property of XRP, since it's a [scarce resource](https://github.com/ripple/rippled/commit/f0e3383856a8923e55b0f10e7822de9031b7159e) ⭐ 5,229 | 🐛 1,089 | 🌐 C++ | 📅 2026-10-17
 and the native token of the XRPL.
 
 ## Cross BlockChain / Sidechains
@@ -550,9 +550,9 @@ These are networks that run in parallel to the XRPL, the XRP input into the netw
 
 Stuff that didn't really fit anywhere else.
 
-* [Awesome Ripple](https://github.com/vhpoet/awesome-ripple) ⭐ 200 | 🐛 2 | 📅 2021-07-02 - A related awesome list, that uses a legacy name.
+* [Awesome Ripple](https://github.com/vhpoet/awesome-ripple) ⭐ 201 | 🐛 2 | 📅 2021-07-02 - A related awesome list, that uses a legacy name.
   Many items from
-  [`README.md@3d85e95`](https://github.com/vhpoet/awesome-ripple/blob/3d85e95f1614af6a4dca89a03e1f8156670a97ef/README.md) ⭐ 200 | 🐛 2 | 📅 2021-07-02
+  [`README.md@3d85e95`](https://github.com/vhpoet/awesome-ripple/blob/3d85e95f1614af6a4dca89a03e1f8156670a97ef/README.md) ⭐ 201 | 🐛 2 | 📅 2021-07-02
 * [FUD Bingo](https://fudbingo.com) - A bingo card for XRP common misconceptions. Created by [Wietse][#wietse]
 * [Jed Balance](https://jed.tequ.dev/) - A stats page for analyzing the
   [`tacostand`](https://bithomp.com/explorer/tacostand) settlement wallet,
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-16._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-10-17._
