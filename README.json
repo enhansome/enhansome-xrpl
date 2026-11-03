@@ -15,8 +15,8 @@
             "id": 380284064,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-10-29T21:20:21Z",
-            "open_issues": 101,
+            "last_commit": "2026-11-02T21:49:22Z",
+            "open_issues": 100,
             "owner": "ripple",
             "repo": "explorer",
             "stars": 246,
@@ -147,11 +147,11 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-10-30T18:44:00Z",
-                "open_issues": 1103,
+                "last_commit": "2026-11-03T17:04:20Z",
+                "open_issues": 1115,
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5242,
+                "stars": 5243,
                 "topics": [
                   "blockchain",
                   "c-plus-plus",
@@ -813,17 +813,26 @@
               "children": [],
               "repo_info": {
                 "archived": false,
-                "description": "A python Library for multiple Blockchains under the Brand CoinClub, Blockchains include:XDC XRP, XLM, FileCoin, Algorand, Cardano, and more",
+                "description": "One Python interface for wallets and payments across several blockchains, including XRPL, Stellar, Algorand and XDC. Proof levels vary by chain; see the README.",
                 "homepage": null,
                 "id": 356447896,
                 "language": "Python",
                 "license": "MIT",
-                "last_commit": "2026-11-02T18:49:04Z",
+                "last_commit": "2026-11-02T23:11:19Z",
                 "open_issues": 0,
                 "owner": "CoinClubQuincy",
                 "repo": "CoinClub_Framework",
                 "stars": 20,
-                "topics": []
+                "topics": [
+                  "algorand",
+                  "blockchain",
+                  "payments",
+                  "python",
+                  "stellar",
+                  "wallets",
+                  "xdc",
+                  "xrpl"
+                ]
               },
               "first_seen": "2026-08-28T20:59:19.701Z"
             }
@@ -1221,7 +1230,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-02T19:46:29.440Z",
+    "last_updated": "2026-11-03T17:19:13.032Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
