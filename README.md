@@ -35,7 +35,7 @@ Here are some things to know:
 # XRPL Explorers
 
 * [XRPL.org Explorer](https://livenet.xrpl.org) 💫 [<kbd>M</kbd>](https://livenet.xrpl.org)[<kbd>T</kbd>](https://testnet.xrpl.org)[<kbd>D</kbd>](https://devnet.xrpl.org)
-  XRPL.org's explorer src: [ripple/explorer](https://github.com/ripple/explorer) ⭐ 247 | 🐛 101 | 🌐 TypeScript | 📅 2026-11-06
+  XRPL.org's explorer src: [ripple/explorer](https://github.com/ripple/explorer) ⭐ 248 | 🐛 101 | 🌐 TypeScript | 📅 2026-11-06
 * [Ledger Observer](https://observer.xrpldata.com/) - A *visual* exploration of
   an account and \ connections. Originally created by
   [@LedgerExplorer](https://twitter.com/LedgerExplorer). src: [nixer89/ledger-observer](https://github.com/nixer89/ledger-observer) ⭐ 5 | 🐛 7 | 🌐 Clojure | 📅 2023-03-06
@@ -325,7 +325,7 @@ targeting web standards.
 #### XRPL Vanity Generators
 
 * [WietseWind/xrp-vanity-generator](https://github.com/WietseWind/xrp-vanity-generator) ⚠️ Archived - Using [ripple-keypairs](https://github.com/ripple/ripple-keypairs) ⚠️ Archived,
-  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,334 | 🐛 254 | 🌐 TypeScript | 📅 2026-11-06
+  part of [xrpl.js](https://github.com/XRPLF/xrpl.js) ⭐ 1,334 | 🐛 259 | 🌐 TypeScript | 📅 2026-11-06
 * [nhartner/xrp-vanity-generator](https://github.com/nhartner/xrp-vanity-address) ⭐ 11 | 🐛 0 | 🌐 Java | 📅 2023-03-04 - Using [xrpl4j][#xrpl4j]
 
 ### Libs/SDK
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-06._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-07._
