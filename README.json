@@ -15,7 +15,7 @@
             "id": 380284064,
             "language": "TypeScript",
             "license": "MIT",
-            "last_commit": "2026-11-12T22:23:05Z",
+            "last_commit": "2026-11-13T18:05:41Z",
             "open_issues": 105,
             "owner": "ripple",
             "repo": "explorer",
@@ -147,11 +147,11 @@
                 "id": 2724167,
                 "language": "C++",
                 "license": "ISC",
-                "last_commit": "2026-11-13T15:54:19Z",
+                "last_commit": "2026-11-13T23:30:18Z",
                 "open_issues": 1086,
                 "owner": "XRPLF",
                 "repo": "rippled",
-                "stars": 5245,
+                "stars": 5244,
                 "topics": [
                   "blockchain",
                   "c-plus-plus",
@@ -1230,7 +1230,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-13T17:22:48.521Z",
+    "last_updated": "2026-11-14T16:05:57.589Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",
