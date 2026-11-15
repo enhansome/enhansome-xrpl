@@ -567,7 +567,7 @@
                     "language": "Rust",
                     "license": "ISC",
                     "last_commit": "2026-10-29T15:30:17Z",
-                    "open_issues": 203,
+                    "open_issues": 205,
                     "owner": "XRPLF",
                     "repo": "xrpl-rust",
                     "stars": 46,
@@ -1230,7 +1230,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-11-14T16:05:57.589Z",
+    "last_updated": "2026-11-15T16:34:49.238Z",
     "original_repository_info": {
       "archived": false,
       "description": "😎 Awesome projects, links, and stuff with the XRPL, aka XRP Ledger.",

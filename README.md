@@ -356,7 +356,7 @@ Application.
 
 * [rubblelabs/ripple](https://github.com/rubblelabs/ripple) ⚠️ Archived: Go
 * [ripple-rest](https://github.com/ripple/ripple-rest) ⚠️ Archived: A RESTful API for submitting payments and monitoring accounts on the Ripple Network
-* [xrpl-rust](https://github.com/sephynox/xrpl-rust) ⭐ 46 | 🐛 203 | 🌐 Rust | 📅 2026-10-29: Rust
+* [xrpl-rust](https://github.com/sephynox/xrpl-rust) ⭐ 46 | 🐛 205 | 🌐 Rust | 📅 2026-10-29: Rust
 * [ripple-libpp](https://github.com/ripple/ripple-libpp) ⭐ 19 | 🐛 3 | 🌐 C++ | 📅 2021-01-14: C++ Standalone RCL-compatible transaction signing and serialization library
 * [ripple-lib-ruby](https://github.com/kevinejohn/ripple-lib-rpc-ruby/) ⭐ 6 | 🐛 1 | 🌐 Ruby | 📅 2014-01-07: Ruby
 * [RippleKit](https://github.com/xasos/RippleKit) ⚠️ Archived: Swift
@@ -590,4 +590,4 @@ We welcome contributors with open arms, read the [contribution guidelines](contr
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-14._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-11-15._
